@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="hello">Hello World, MainActivity!</string>
+<string name="app_name">Preference Excercise</string>
+<string name="str_btn_settings">Settings</string>
+<string name="str_first_category_title">Settings</string>
+<string name="str_etp_edittext_password_title">Password</string>
+<string name="str_etp_edittext_preference2_title">Reminder For Updation</string>
+<string name="str_second_category_title">Security Settings</string>
+<string name="str_cbp_checkbox_preference1_title">Screen Lock</string>
+</resources>

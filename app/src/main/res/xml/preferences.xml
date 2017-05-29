@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/str_first_category_title"
+        >
+        <EditTextPreference
+            android:key="etp_edittext_preference1"
+            android:title="@string/str_etp_edittext_password_title"
+            android:summary="Set Your Password" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/str_second_category_title"
+        >
+        <CheckBoxPreference
+            android:key="cbp_checkbox_preference1"
+            android:title="@string/str_cbp_checkbox_preference1_title"
+            android:summary="Lock the Screen with password" />
+        <EditTextPreference
+            android:key="etp_edittext_preference2"
+            android:title="@string/str_etp_edittext_preference2_title"
+            android:summary="Set Reminder Updation Frequency" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
